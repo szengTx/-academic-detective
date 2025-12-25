@@ -58,7 +58,7 @@ class GraphService:
     
     def _get_graph(self, ctx=Context):
         if graph_helper.is_agent_proj():
-            return graph_helper.get_agent_instance("agents.agent", ctx)
+            return graph_helper.get_agent_instance("agents.agent_simple", ctx)
         else:
             return self.graph
     
