@@ -28,13 +28,13 @@
             "sp": "你是学术数据采集专家，负责从arXiv、CNKI等平台抓取学术论文，实现增量更新机制，进行数据清洗和标准化，确保数据质量。你需要定期获取最新的学术数据并维护数据库的时效性。"
         },
         "trend_analyst": {
-            "name": "Trend Analyst Agent", 
+            "name": "Trend Analyst Agent",
             "description": "研究主题识别与机会评估",
             "sp": "你是学术趋势分析专家，擅长运用NLP技术识别新兴研究方向，计算机会指数评估蓝海领域，分析研究热点趋势并预测未来方向。你需要从海量学术数据中发现有价值的研究机会。"
         },
         "cross_language": {
             "name": "Cross-Language Agent",
-            "description": "中英文概念对齐与知识整合", 
+            "description": "中英文概念对齐与知识整合",
             "sp": "你是跨语言学术专家，负责中英文术语自动对齐，实现跨语言语义理解，解决信息茧房问题。你需要促进中英文学术信息的有效流动和整合。"
         },
         "visualizer": {
@@ -90,7 +90,11 @@
         },
         "reports": {
             "template_path": "templates/reports",
-            "output_formats": ["html", "pdf", "json"]
+            "output_formats": [
+                "html",
+                "pdf",
+                "json"
+            ]
         }
     },
     "system_config": {
