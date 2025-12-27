@@ -1,4 +1,5 @@
-# 学术侦探系统 - 跨语种科研趋势发现系统
+# 学术侦探系统（Academic Detective)
+
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -291,54 +292,14 @@ Content-Type: application/json
 }
 ```
 
-## 🔍 监控与维护
 
-### 系统监控
-- **性能指标**：CPU、内存、网络使用率
-- **Agent状态**：各Agent健康状态检查
-- **数据质量**：采集数据准确性和完整性
-- **用户行为**：API调用统计和用户反馈
 
-### 定期维护
-- **数据更新**：每日自动采集最新文献
-- **模型优化**：定期更新分析模型
-- **系统升级**：安全补丁和功能改进
-- **备份恢复**：数据备份和灾难恢复
-
-## 🤝 贡献指南
-
-欢迎参与学术侦探系统开发！
-
-### 开发流程
-1. Fork项目仓库
-2. 创建功能分支 (`git checkout -b feature/new-feature`)
-3. 提交更改 (`git commit -am 'Add new feature'`)
-4. 推送分支 (`git push origin feature/new-feature`)
-5. 创建Pull Request
-
-### 代码规范
-- 遵循PEP 8代码风格
-- 添加必要的注释和文档
-- 编写单元测试
-- 更新相关文档
-
-## 📄 许可证
+##  许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
-## 🙏 致谢
 
-感谢以下开源项目和服务：
-- [LangChain](https://github.com/langchain-ai/langchain) - AI应用开发框架
-- [FastAPI](https://github.com/tiangolo/fastapi) - 现代Web框架
-- [PostgreSQL](https://www.postgresql.org/) - 强大的关系数据库
-- [arXiv](https://arxiv.org/) - 开放学术论文平台
 
-## 📞 联系我们
-
-- 📧 邮箱：academic-detective@example.com
-- 🐛 问题反馈：[GitHub Issues](https://github.com/your-repo/issues)
-- 💬 讨论交流：[GitHub Discussions](https://github.com/your-repo/discussions)
 
 ---
 
@@ -346,7 +307,7 @@ Content-Type: application/json
 
 ---
 
-## 📖 本地运行指南
+##  本地运行指南
 
 ### 运行完整流程
 ```bash
